@@ -1,0 +1,129 @@
+.app {
+    text-align: center;
+    .openModal{
+        display: flex;
+        margin: 50px;
+    }
+    .modalHeader{
+        display: flex;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.5 );
+        margin: 0;
+        padding: 20px;
+    }
+    .modalForm{
+        padding: 0px 20px 0px 20px;
+        .modalReportName{
+            display: flex;
+
+            margin: 20px 0px 20px 0px;
+
+            .label{
+                display: flex;
+                align-self: center;
+                white-space: nowrap;
+                margin: 0px 20px 0px 0px;
+                width: 20%;
+            }
+            .fieldContainer{
+                display: flex;
+
+                justify-content: space-between;
+                width: 80%;
+
+                .field{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+
+                    .input{
+                        display: flex;
+                        height: 40px;
+                        padding: 0px 10px;
+                        border: 1.5px solid gray;
+                        border-radius: none;
+                        background-color: #f1f1f1;
+                    }
+                    .input:focus {
+                        outline: none;
+                    }
+                    .dateInput{
+                        height: 40px;
+                        padding: 0px 10px;
+                        border: 1.5px solid gray;
+                        border-radius: none;
+                        background-color: #f1f1f1;
+                    }
+                    .error{
+                        color: red;
+                    }
+                    .radioContainerFormat{
+                        display:flex;
+                        justify-content: space-around;
+                    }
+                    .radioContainer{
+                        display:flex;
+                        justify-content: space-between;
+                    }
+                }
+                .at{
+                    display: flex;
+                    align-self: center;
+                    white-space: nowrap;
+                    margin: 0px 20px 0px 20px;
+                }
+
+            }
+
+            .dropdownField{
+                display: flex;
+                flex-direction: column;
+                .error{
+                    color: red;
+                }
+            }
+        }
+    }
+
+    .modalFooter{
+        display: flex;
+        border-top: 2px solid gray;
+        padding: 20px 10px 20px 0px;
+        justify-content: space-between;
+        .responseContainer{
+            display: flex;
+        }
+    }
+}
+
+.responseInfo{
+    align-self: center;
+    color: green;
+    padding: 0px 10px 0px 20px;
+}
+
+
+.button{
+    background-color: #e7e7e7;
+    border: 1px solid gray;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+
+.button:hover {
+    background-color: #555555; /* Green */
+    color: white;
+}
+
+
+
+
+
+
+
+
